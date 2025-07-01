@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+venv/
+config.json
+get-pip.py
+.DS_Store
+Thumbs.db
+*.log

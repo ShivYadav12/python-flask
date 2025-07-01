@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+{% block body %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{ url_for('static', filename='assets/img/about-bg.jpg') }}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>About Me</h1>
+              <span class="subheading">This is what I do.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>"Man is a mystery—not just to the world, but to himself. He builds palaces of reason and logic, only to watch them crumble under the weight of his own contradictions. Freedom terrifies him more than chains, because with it comes the burden of choice, and with choice, the specter of guilt. He seeks truth, yet often flees from it the moment it burns too bright. In the quiet chambers of his soul, he wages war against himself—torn between the longing for purity and the seduction of ruin. To suffer consciously, to struggle with one's own conscience, is the price of being truly human. And perhaps in that suffering lies our only path to redemption."</p>
+          <p>"There is but one truly serious philosophical problem, and that is whether life is worth living. In a world stripped of inherent meaning, man stands alone, confronting the absurd: the eternal silence of the universe against his desperate desire for clarity. Yet this absurdity is not a reason to despair—it is an invitation to rebel. Not with violence, but with awareness. To live without appeal, without illusions, and still find joy in the sunlight, the sea, a fleeting moment of laughter—that is the quiet triumph of the absurd man. Freedom is not found in meaning, but in our refusal to surrender to despair."
+</p>
+          <p>"There are times when it seems as if the trial has already begun long before we’re aware of it. A man wakes one morning and finds no crime, no judgment—only the quiet, suffocating weight of guilt that has no origin. He walks through corridors built by invisible hands, answers questions no one asked, and finds himself shrinking under the gaze of an authority that never shows its face. In Kafka’s world, the absurd is not loud—it is a whisper that corrodes certainty. It is the realization that the maze has no center, and yet we keep moving, not because we hope to escape, but because standing still feels worse. And perhaps that is the true punishment: not the verdict, but the endless, meaningless motion toward it."</p>
+        </div>
+      </div>
+    </div>
+
+   {% endblock %}
